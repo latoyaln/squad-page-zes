@@ -8,7 +8,7 @@ export async function load({ params }) {
 
   // If the persons array is empty, throw a 404 error
   if (!response.data || response.data.length === 0) {
-    throw error(404, `Squad with ID ${params.squad_id} not found`);
+    throw error(404, `Squad with Name ${params.squad_id} not found`);
   }
 
   return {
