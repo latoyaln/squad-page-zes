@@ -1,7 +1,7 @@
 import fetchJson from "$lib/fetch-json"
 
 export async function load() {
-  const url = 'https://fdnd.directus.app/items/squad?filter={"tribe_id":1}';
+  const url = 'https://fdnd.directus.app/items/squad?filter={"tribe_id":2}';
 
   const response = await fetchJson(url)
   
