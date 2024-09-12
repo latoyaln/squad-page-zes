@@ -1,26 +1,30 @@
 <script>
   export let data
+  import Card from "$lib/Card.svelte"
 </script>
 
 <main>
-  <ul>
+  <h1> Squad </h1>
+  <section class ="cards-container">
     {#each data.persons as person}
-        <li>
-          <a href="/{person.id}">
-            {person.name} {person.prefix} {person.surname}
-          </a>
-        </li>
+        <Card
+            name = {person.name}
+            avatar = {person.avatar}
+            prefix = {person.prefix}
+            surname = {person.surname}
+            id = {person.id}
+        />
     {/each}
-  </ul>
+  </section>
 </main>
 
 <style>
-    ul {
-    list-style: none;
+    .cards-container{
     padding:0;
     display:flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     gap:.5rem;
-    align-items:start;
+    justify-content: center;
   }
 </style>
