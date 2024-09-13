@@ -36,7 +36,7 @@
   --green-primary: #38B39C;
 
   /* Fonts */
-  --font-family: "Montserrat Alternates", sans-serif;
+  --font-family: "Irish Grover", system-ui;;
   --font-medium: 500;
   --font-bold: 700;
 
