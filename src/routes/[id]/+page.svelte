@@ -17,7 +17,7 @@
       </div>
       <div class="github-container">
         <img class="energy" src="http://res.cloudinary.com/bpettis/image/upload/v1516916049/normaltype_ztufzq.png" alt="Normal Energy Type Symbol" width="20" height="20">
-        <p class="github">{data.persons[0].github_handle}</p>
+        <p class="github">@{data.persons[0].github_handle}</p>
       </div>
       <div class="github-container">
         <img class="energy" src="http://res.cloudinary.com/bpettis/image/upload/v1516916052/watertype_nkics0.png" alt="Water Energy Type Symbol" width="20" height="20">
@@ -87,6 +87,14 @@
     object-fit: cover;
   }
 
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+    padding-top: 30px;
+  }
+
   .info-container > div {
     display: flex;
     gap: 10px;   
@@ -98,9 +106,11 @@
     font-size: 20px;
     color: black;
     font-weight: 700;
+    margin: 0;
+    padding: 0;
   }
 
-  a.website {
+  .info-container > div > a.website {
     text-decoration: none;
     color: navy;
   }
