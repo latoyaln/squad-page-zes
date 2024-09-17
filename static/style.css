@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;700&family=Montserrat:wght@500&display=swap');
 
 :root {
 
@@ -12,7 +12,8 @@
   --green-primary: #38B39C;
 
   /* Fonts */
-  --font-family: "Montserrat Alternates", sans-serif;
+  --font-family: "Montserrat", "sans Serif";
+  --font-family-alt: "Montserrat Alternates", "sans Serif";
   --font-medium: 500;
   --font-bold: 700;
 
