@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap");
+body{
+    background: linear-gradient(43deg, #4be0e8, #4a176f, #1000ad, #ff05ff);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 6s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 59%}
+    50%{background-position:100% 42%}
+    100%{background-position:0% 59%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 59%}
+    50%{background-position:100% 42%}
+    100%{background-position:0% 59%}
+}
